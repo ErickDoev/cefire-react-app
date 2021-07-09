@@ -1,0 +1,22 @@
+import React from 'react'
+import { useDispatch } from 'react-redux'
+import { openModal } from '../../actions/ui';
+
+export const AddNewFab = () => {
+
+    const dispatch = useDispatch();
+
+    const handleOpenModal = () => {
+
+        dispatch(openModal());
+        
+    }
+
+    return (
+        <button 
+            className="cbtn cbtn-primary fab"
+            onClick={handleOpenModal}>
+            <i className="fas fa-plus"></i>
+        </button>
+    )
+}

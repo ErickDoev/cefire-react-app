@@ -1,0 +1,26 @@
+
+
+@import './base/settings';
+
+@import './base/base';
+
+//components
+@import './components/auth';
+
+//botones
+@import './components/buttons';
+
+//cefire
+@import './components/cefire';
+
+//forms
+@import './components/forms';
+
+//tables
+@import './components/tables';
+
+//big calendar
+@import 'react-big-calendar/lib/sass/styles';
+@import './components/calendar';
+//modal
+@import './components/modal';
