@@ -23,12 +23,12 @@ export const Sidebar = () => {
                 </div>
                 <ul className="cefire__sidebar-list mt-5">
                     
-                    <li className="cefire__sidebar-element" ><Link to='/empleados' ><i class="fas fa-user-tie"></i> Empleados</Link></li>
-                    <li className="cefire__sidebar-element" ><Link to='/especialidades' ><i class="fas fa-hospital-alt"></i> Especialidades</Link></li>
+                    <li className="cefire__sidebar-element" ><Link to='/empleados' ><i className="fas fa-user-tie"></i> Empleados</Link></li>
+                    <li className="cefire__sidebar-element" ><Link to='/especialidades' ><i className="fas fa-hospital-alt"></i> Especialidades</Link></li>
                     
-                    <li className="cefire__sidebar-element" ><Link to='/pacientes' ><i class="fas fa-user"></i> Pacientes</Link></li>
+                    <li className="cefire__sidebar-element" ><Link to='/pacientes' ><i className="fas fa-user"></i> Pacientes</Link></li>
                     
-                    <li className="cefire__sidebar-element" ><Link to='/consultas' ><i class="fas fa-calendar-alt"></i> Consultas</Link></li>
+                    <li className="cefire__sidebar-element" ><Link to='/consultas' ><i className="fas fa-calendar-alt"></i> Consultas</Link></li>
                     
                     
                 </ul>
